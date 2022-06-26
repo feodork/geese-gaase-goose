@@ -1,0 +1,101 @@
+body {
+	background-color: #3d6ad5;
+	font-family: "Roboto", "Arial", sans-serif;
+	color: #ffffff;
+	font-weight: 200;
+	margin: 40px;
+	background-image: url(img/background1.png);
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo {
+	width: 200px;
+}
+
+h4 {
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.player-turn {
+	font-size: 2em;
+}
+
+.level-winner {
+	margin: 20px;
+	padding: 20px;
+	font-size: 2em;
+}
+
+
+.scoreboard {
+	padding: 10px;
+	font-size: 1em;
+	justify-content: center;
+}
+
+.player-card {
+	padding: 10px;
+	margin: 10px;
+	max-height: 280px;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+}
+
+#gameboard {
+	display: grid;
+	grid-template-columns: 150px 150px 150px;
+	grid-template-rows: 150px 150px 150px;
+}
+
+.square {
+	border: 1px solid black;
+	font-size: 4em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	margin: 15px;
+	padding: 15px;
+	font-size: 1em;
+	border-radius: 25px;
+	background-color: #dedede;
+	border: 0px;
+}
+
+.gif-container {
+  height: 100px;
+  position: relative;
+  padding: 10px;
+}
+
+#gif {
+	max-height: 100px;
+	position: absolute;
+}
+
+
+
+
+
+

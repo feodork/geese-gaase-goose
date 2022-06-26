@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Geese Gaase Goose</title>
+    <link rel="stylesheet" href="style.css">
+    <audio controls autoplay>
+      <source src="audio/autoplaysong.mp3">
+    </audio>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <img class="logo" src="img/goose-logo.png">
+        <h1>Geese<br>Gaase Goose</h1>
+      </div>
+
+      <div class="row center">
+        <div class="player-turn"></div>
+        <section class="level-winner"></section>
+      </div>
+
+      <div class="row">
+        <div class="scoreboard">
+          <h4>Player 1 score: <span id="player-one">0</span></h4>
+          <img class="player-card" src="img/boy.png">
+        </div>
+        <div id="gameboard">
+          <div data-index="0" class="square"></div>
+          <div data-index="1" class="square"></div>
+          <div data-index="2" class="square"></div>
+          <div data-index="3" class="square"></div>
+          <div data-index="4" class="square"></div>
+          <div data-index="5" class="square"></div>
+          <div data-index="6" class="square"></div>
+          <div data-index="7" class="square"></div>
+          <div data-index="8" class="square"></div>
+        </div>
+        <div class="scoreboard">
+          <h4>Player 2 score: <span id="player-two">0</span></h4>
+          <img class="player-card" src="img/shop-owner.webp">
+        </div>
+      </div>
+
+      <div class="row">
+        <button class="btn">Restart Game</button>
+      </div>
+
+    </div>
+	<script src="ticTacToe.js"></script>
+  </body>
+  <footer class="gif-container"><img id="gif" src="img/doraagoose.gif"></footer>
+</html>
