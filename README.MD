@@ -9,4 +9,5 @@ In Tic-Tac-Toe (Noughts & Crosses), 2 players take turns to put down an X or an 
 
 Player's turn and player's scores are tracked. A restart button is used to clear the game board.
 
-# # geese-gaase-goose
+# Screen Shots
+img/screen-shot.png
