@@ -7,8 +7,6 @@ This application uses:
 # Play the game:
 Play the game [online](https://feodork.github.io/geese-gaase-goose/).
 
-[Link text Here](https://link-url-here.org)
-
 # Game Features:
 In Tic-Tac-Toe (Noughts & Crosses), 2 players take turns to put down an X or an O on a 3 x 3 grid. A player wins by placing three of their marks in a horizontal, vertical or diagonal line. If no player is successful in making a line, the game is a draw.
 
